@@ -1,0 +1,44 @@
+:root {
+  --background: #2B3042;
+  --gray: #6C6C6D;
+  --light_gray: #C9CACF;
+  --yellow: #FCE94B;
+  --white: #FFFFFF;
+  --black: #000000;
+
+  --button_ctaA: #FFE404;
+  --button_ctaB: #FF6B00;
+}
+
+.hero {
+  background-color: var(--background);
+  display: flex;
+  justify-content: space-around;
+}
+
+.reduza_fatura {
+
+}
+
+.como_funciona {
+
+}
+
+.sobre_nos {
+
+}
+
+.beneficios {
+
+}
+
+.rodape {
+
+}
+
+.botao_cta {
+  background: linear-gradient(var(--button_ctaA), var(--button_ctaB));
+  height: 4.625rem;
+  border-radius: 5px;
+  padding: 1.875rem 1.25rem;
+}
