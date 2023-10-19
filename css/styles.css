@@ -1,13 +1,13 @@
 :root {
-  --background: #2B3042;
-  --gray: #6C6C6D;
-  --light_gray: #C9CACF;
-  --yellow: #FCE94B;
-  --white: #FFFFFF;
+  --background: #2b3042;
+  --gray: #6c6c6d;
+  --light_gray: #c9cacf;
+  --yellow: #fce94b;
+  --white: #ffffff;
   --black: #000000;
 
-  --button_ctaA: #FFE404;
-  --button_ctaB: #FF6B00;
+  --button_ctaA: #ffe404;
+  --button_ctaB: #ff6b00;
 }
 
 .hero {
@@ -17,23 +17,39 @@
 }
 
 .reduza_fatura {
-
 }
 
 .como_funciona {
-
 }
 
 .sobre_nos {
+  background-color: var(--background);
+  font-family: "Montserrat", sans-serif;
+  color: var(--white);
+  font-weight: 400;
+  display: flex;
+  justify-content: space-around;
+  padding: 178px 20px;
+}
 
+.sobre_nos h2 {
+  font-size: 2rem;
+}
+
+.sobre_nos p {
+  font-size: 1.625rem;
+  max-width: 729px;
+}
+
+hr {
+  border-color: var(--yellow);
+  width: 40px;
 }
 
 .beneficios {
-
 }
 
 .rodape {
-
 }
 
 .botao_cta {
