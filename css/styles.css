@@ -10,6 +10,10 @@
   --button_ctaB: #ff6b00;
 }
 
+body {
+  margin: 0;
+}
+
 .hero {
   background-color: var(--background);
   display: flex;
@@ -17,6 +21,28 @@
 }
 
 .reduza_fatura {
+  margin: auto;
+  text-align: right;
+}
+
+.reduza_fatura h2::before {
+  content: "";
+  background-color: var(--yellow);
+  height: 3px;
+  display: flex;
+  width: 20px;
+}
+
+.passos {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.passo {
+  background-color: var(--background);
+  width: 387px;
+  height: 738.64px;
+  text-align: center;
 }
 
 .como_funciona {
