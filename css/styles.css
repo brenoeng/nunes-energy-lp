@@ -10,27 +10,33 @@
   --button_ctaB: #ff6b00;
 }
 
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
 body {
   margin: 0;
 }
 
-.hero {
+.centraliza-limita {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.blue-bg {
   background-color: var(--background);
+}
+
+.hero {
   display: flex;
   justify-content: space-around;
 }
 
-.reduza_fatura {
-  margin: auto;
-  text-align: right;
+.hero h2 {
+  color: white;
 }
 
-.reduza_fatura h2::before {
-  content: "";
-  background-color: var(--yellow);
-  height: 3px;
-  display: flex;
-  width: 20px;
+.reduza_fatura h2 {
 }
 
 .passos {
@@ -48,9 +54,8 @@ body {
 .como_funciona {
 }
 
-.sobre_nos .parte1 {
+.sobre_nos {
   background-color: var(--background);
-  font-family: "Montserrat", sans-serif;
   color: var(--white);
   font-weight: 400;
   display: flex;
@@ -83,18 +88,18 @@ body {
   max-width: 729px;
 }
 
-hr {
-  /* border-color: var(--yellow); */
+/* hr {
+  border-color: var(--yellow);
   border-bottom: 10px solid red;
   width: 40px;
-  /* height: 1px; */
-}
+  height: 1px;
+} */
 
 .miguel {
   position: relative;
   text-align: center;
   top: -250px;
-  font-family: "Montserrat", sans-serif;
+  margin-bottom: -200px;
 }
 
 .miguel h3 {
@@ -110,13 +115,16 @@ hr {
 }
 
 .fale-com-a-gente {
-  font-family: "Montserrat", sans-serif;
   display: flex;
   flex-direction: column;
-  /* align-items: flex-end; */
-  /* max-width: 50%; */
-  /* text-align: left; */
-  margin: 0 110px 0 400px;
+  max-width: 612px;
+  position: relative;
+  left: 200px;
+  font-weight: 700;
+}
+
+.fale-com-a-gente p {
+  font-size: 1.5rem;
 }
 
 .beneficios {
@@ -128,6 +136,9 @@ hr {
 .botao_cta {
   background: linear-gradient(var(--button_ctaA), var(--button_ctaB));
   height: 4.625rem;
+  width: 24.375rem;
+  border: 0;
   border-radius: 5px;
-  padding: 1.875rem 1.25rem;
+  font-weight: 700;
+  font-size: 1.75rem;
 }
