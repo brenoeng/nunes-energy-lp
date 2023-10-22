@@ -1,7 +1,7 @@
 :root {
   --background: #2b3042;
   --gray: #6c6c6d;
-  --light_gray: #c9cacf;
+  --light_gray: #8b8587;
   --yellow: #fce94b;
   --white: #ffffff;
   --black: #000000;
@@ -30,10 +30,40 @@ body {
 .hero {
   display: flex;
   justify-content: space-around;
+  padding: 125px;
+}
+
+.hero #logo {
+  position: relative;
+  top: -111px;
+  left: -72px;
+}
+
+.hero #capa {
+  width: 464px;
+}
+
+.hero button {
+  position: relative;
+  top: -111px;
 }
 
 .hero h2 {
   color: white;
+  font-size: 3.25rem;
+  position: relative;
+  top: -150px;
+  line-height: 100px;
+  margin: 0;
+}
+
+.hero p {
+  color: var(--light_gray);
+  font-size: 1.5rem;
+  position: relative;
+  top: -175px;
+  line-height: 70px;
+  margin: 0;
 }
 
 .reduza_fatura h2 {
@@ -56,7 +86,7 @@ body {
 
 .sobre_nos {
   background-color: var(--background);
-  color: var(--white);
+  color: white;
   font-weight: 400;
   display: flex;
   justify-content: space-around;
@@ -106,6 +136,7 @@ body {
   color: var(--gray);
   font-size: 2rem;
   margin: 0;
+  font-weight: 700;
 }
 
 .miguel p {
