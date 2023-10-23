@@ -70,6 +70,7 @@ body {
   font-size: 2.125rem;
   color: #2b3042cc;
   margin-left: 574px;
+  margin-top: 97px;
 }
 
 .reduza_fatura hr {
@@ -133,6 +134,7 @@ body {
 
 .sobre_nos h2 {
   font-size: 2rem;
+  margin-bottom: 132px;
 }
 
 .com-traco {
@@ -189,6 +191,10 @@ body {
   font-size: 1.5rem;
 }
 
+.fale-com-a-gente h2 {
+  font-size: 2.25rem;
+}
+
 .beneficios {
 }
 
@@ -203,6 +209,9 @@ body {
   border-radius: 5px;
   font-weight: 700;
   font-size: 1.75rem;
+  animation-name: piscando;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
 }
 
 .btn-whatsapp-pulse {
@@ -232,5 +241,14 @@ body {
   }
   80% {
     box-shadow: 0 0 0 14px rgba(37, 211, 102, 0);
+  }
+}
+
+@keyframes piscando {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.07);
   }
 }
