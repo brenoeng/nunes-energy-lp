@@ -8,6 +8,8 @@
 
   --button_ctaA: #ffe404;
   --button_ctaB: #ff6b00;
+
+  --cor_separador: #d9d9d9;
 }
 
 * {
@@ -233,6 +235,13 @@ body {
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
   animation-iteration-count: infinite;
+}
+
+.separador_section {
+  width: 100%;
+  background-color: var(--cor_separador);
+  height: 2.75px;
+  border: none;
 }
 
 @keyframes pulse {
