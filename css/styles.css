@@ -212,6 +212,7 @@ body {
   font-weight: 700;
   font-size: 1.75rem;
   box-sizing: border-box;
+  color: var(--black);
 }
 
 .btn-whatsapp-pulse {
