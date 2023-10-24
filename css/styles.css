@@ -51,7 +51,7 @@ body {
 }
 
 .hero h2 {
-  color: white;
+  color: var(--white);
   font-size: 3.25rem;
   position: relative;
   top: -150px;
@@ -97,12 +97,12 @@ body {
   text-align: center;
   width: 387px;
   height: 738.64px;
-  color: white;
+  color: var(--white);
   font-size: 1.875rem;
 }
 
 .separador {
-  border-top: 3px dashed white;
+  border-top: 3px dashed var(--white);
 }
 
 .container-passo {
@@ -127,7 +127,7 @@ body {
 
 .sobre_nos {
   background-color: var(--background);
-  color: white;
+  color: var(--white);
   font-weight: 400;
   display: flex;
   justify-content: space-around;
@@ -218,7 +218,7 @@ body {
 
 .btn-whatsapp-pulse {
   background: #25d366;
-  color: white;
+  color: var(--white);
   position: fixed;
   bottom: 20px;
   right: 20px;
