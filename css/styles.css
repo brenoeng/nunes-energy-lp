@@ -45,7 +45,7 @@ body {
   width: 464px;
 }
 
-.hero button {
+.hero a {
   position: relative;
   top: -111px;
 }
@@ -121,10 +121,6 @@ body {
   margin-top: 65px;
 }
 
-.reduza_fatura button {
-  margin-bottom: 80px;
-}
-
 .sobre_nos {
   background-color: var(--background);
   color: var(--white);
@@ -132,6 +128,7 @@ body {
   display: flex;
   justify-content: space-around;
   padding: 178px 20px 350px 20px;
+  margin-top: 80px;
 }
 
 .sobre_nos h2 {
@@ -205,15 +202,16 @@ body {
 
 .botao_cta {
   background: linear-gradient(var(--button_ctaA), var(--button_ctaB));
-  height: 4.625rem;
-  width: 24.375rem;
+  max-height: 4.625rem;
+  max-width: 24.375rem;
+  justify-content: center;
+  padding: 20px;
+  text-decoration: none;
   border: 0;
   border-radius: 5px;
   font-weight: 700;
   font-size: 1.75rem;
-  animation-name: piscando;
-  animation-duration: 1.5s;
-  animation-iteration-count: infinite;
+  box-sizing: border-box;
 }
 
 .btn-whatsapp-pulse {
@@ -250,14 +248,5 @@ body {
   }
   80% {
     box-shadow: 0 0 0 14px rgba(37, 211, 102, 0);
-  }
-}
-
-@keyframes piscando {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.07);
   }
 }
