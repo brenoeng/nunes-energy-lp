@@ -22,7 +22,7 @@ body {
 
 .centraliza-limita {
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1280px;
 }
 
 .blue-bg {
@@ -194,7 +194,49 @@ body {
   font-size: 2.25rem;
 }
 
+.section-ben {
+  padding: 84px 147px;
+  max-width: 998px;
+}
+
+.section-ben h2 {
+  margin-top: 0;
+  margin-bottom: 59px;
+  font-weight: 700;
+  font-size: 2.25rem;
+}
+
 .beneficios {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+}
+
+.benef {
+  width: 489px;
+  height: 312px;
+  background-color: var(--background);
+  border-radius: 30px;
+  text-align: center;
+  padding: 0 55px;
+  color: var(--white);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.benef p {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.section-ben > p {
+  color: var(--light_gray);
+  font-size: 1.375rem;
+  font-weight: 700;
+  margin-bottom: 59px;
+  margin-top: 28px;
 }
 
 .rodape {
@@ -213,6 +255,7 @@ body {
   font-size: 1.75rem;
   box-sizing: border-box;
   color: var(--black);
+  display: block;
 }
 
 .btn-whatsapp-pulse {
