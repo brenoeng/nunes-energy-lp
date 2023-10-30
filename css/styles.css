@@ -266,6 +266,8 @@ body {
 .rodape {
   display: flex;
   justify-content: space-between;
+  padding-left: 102px;
+  padding-right: 67px;
 }
 
 .contato {
@@ -303,7 +305,43 @@ body {
   border: 3px solid var(--background30);
   border-radius: 10px;
   box-shadow: 0px 4px 4px 0px #00000040;
-  /* box-sizing: border-box; */
+  width: 546px;
+  /* height: 686px; */
+  padding: 61px 39px 41px;
+  color: var(--white);
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.form p {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 43px;
+}
+
+form > * {
+  display: block;
+}
+
+form input {
+  width: 100%;
+  border-radius: 5px;
+  height: 43px;
+  margin-bottom: 17px;
+  font-size: 1.25rem;
+  background-color: var(--cor_separador);
+}
+
+form input[type="submit"] {
+  width: 181px;
+  font-size: 1.5rem;
+  margin: auto;
+  background: linear-gradient(var(--button_ctaA), var(--button_ctaB));
+  color: black;
+  font-weight: 500;
+  border-radius: 5px;
+  margin-top: 46px;
 }
 
 .copy-r {

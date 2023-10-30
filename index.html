@@ -184,11 +184,22 @@
         </div>
         <div class="form">
           <p>Solicite um orçamento</p>
-          <form action="">
-            <label for="">Nome</label>
-            <input type="text" />
-            <input type="text" />
-            <input type="range" name="" id="" />
+          <form action="#">
+            <label for="name">Nome</label>
+            <input id="name" type="text" required />
+            <label for="celular">Celular</label>
+            <input
+              id="celular"
+              type="tel"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+              title="(00)00000-0000"
+              required
+            />
+            <label for="celular"
+              >Quanto você paga na fatura de Energia Elétrica? (em R$)</label
+            >
+            <input type="number" name="" id="" min="0" required />
+            <input type="submit" name="" id="" value="ENVIAR" />
           </form>
         </div>
       </div>
