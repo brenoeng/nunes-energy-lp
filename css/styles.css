@@ -5,7 +5,7 @@
   --white6: #d9d9d90f;
   --gray: #6c6c6d;
   --light_gray: #8b8587;
-  --very_light_gray: #D9D9D9;
+  --very_light_gray: #d9d9d9;
   --yellow: #fce94b;
   --white: #ffffff;
   --white50: #ffffff80;
@@ -14,7 +14,7 @@
   --button_ctaA: #ffe404;
   --button_ctaB: #ff6b00;
 
-  --cor_texto_testemunho: #672B00;
+  --cor_texto_testemunho: #672b00;
 
   --cor_separador: #d9d9d9;
 }
@@ -84,11 +84,7 @@ body {
   color: #2b3042cc;
   margin-left: 574px;
   margin-top: 97px;
-}
-
-.reduza_fatura hr {
-  width: 100%;
-  height: 30px;
+  margin-right: 15px;
 }
 
 .reduza_fatura h3 {
@@ -455,7 +451,7 @@ form input[type="submit"] {
 }
 
 .card_content div h4 {
-  font-family: 'Noto Serif', serif;
+  font-family: "Noto Serif", serif;
   font-size: 1.5rem;
   font-style: italic;
   font-weight: 500;
@@ -471,7 +467,7 @@ form input[type="submit"] {
   margin: 0;
   margin-top: 0.25rem;
   color: var(--cor_texto_testemunho);
-  font-family: 'Noto Serif', serif;
+  font-family: "Noto Serif", serif;
   font-weight: 400;
   font-style: italic;
   font-size: 1.5rem;
@@ -491,5 +487,77 @@ form input[type="submit"] {
   }
   80% {
     box-shadow: 0 0 0 14px rgba(37, 211, 102, 0);
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .hero #logo {
+    position: unset;
+    margin: auto;
+    display: block;
+  }
+
+  .hero #capa {
+    display: none;
+  }
+
+  .hero h2 {
+    text-align: center;
+    margin-top: 143px;
+  }
+
+  .hero p {
+    text-align: center;
+  }
+
+  .hero a {
+    position: unset;
+    margin: auto;
+    margin-top: -111px;
+  }
+
+  .reduza_fatura h2 {
+    font-size: 1.5rem;
+    text-align: right;
+    margin-left: 0;
+    margin-bottom: 57px;
+    margin-top: 48px;
+  }
+
+  #traco-amarelo {
+    display: inline-block;
+    position: relative;
+    bottom: 6px;
+    left: -14px;
+    width: 40px; /*or whatever width you want the effect of <hr>*/
+    border-top: 6px solid var(--yellow);
+  }
+
+  .reduza_fatura h3 {
+    display: none;
+  }
+
+  .separador_section {
+    margin-bottom: 85px;
+  }
+
+  .passos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .passo .separador,
+  .descricao {
+    display: none;
+  }
+
+  .passo {
+    height: 276px;
+    padding: 35px 108px;
+  }
+
+  .container-passo {
+    padding: 0;
   }
 }
