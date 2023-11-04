@@ -345,6 +345,7 @@ form input[type="submit"] {
 
 .copy-r {
   margin-top: 88px;
+  margin-right: 20px;
   padding-bottom: 61px;
   text-align: right;
   color: var(--white50);
@@ -559,5 +560,28 @@ form input[type="submit"] {
 
   .container-passo {
     padding: 0;
+  }
+
+  .sobre_nos {
+    justify-content: center;
+  }
+
+  .sobre_nos img {
+    display: none;
+  }
+
+  .beneficios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .benef {
+    min-width: 407px;
+  }
+
+  .rodape {
+    flex-direction: column;
+    align-items: center;
   }
 }
