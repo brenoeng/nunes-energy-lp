@@ -431,11 +431,30 @@ form input[type="submit"] {
   width: 46rem;
   height: 27rem;
   position: relative;
-  padding: 0.8rem 1.75rem;
+  padding: 2rem 1.75rem 2rem 3rem;
   padding-bottom: 3.5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.carousel_button_items {
+  margin-top: 86px;
+  display: flex;
+  justify-content: end;
+  gap: 1.82rem;
+}
+
+.button_item {
+  background-color: var(--button_ctaB);
+  border-radius: 50%;
+  border: 0px;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.actived {
+  background-color: rgb(from var(--button_ctaB) calc(r - 0.25) g b);
 }
 
 .card_content::before {

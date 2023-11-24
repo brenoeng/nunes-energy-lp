@@ -146,14 +146,9 @@
       <div>
         <div class="card_content">
           <div>
-            <h4>Maria, E</h4>
-            <p class="texto_testemunho">
-              “Cada vez que recebo um depoimento eu me sinto muito realizada, é
-              uma parte de um sonho que está sendo realizado a cada dia! Nas
-              formações de Reiki passo muito conhecimento, ensino técnicas mas
-              também passo muito amor, dedicação e respeito. Cada um dos 600
-              alunos que tive esse ano é um pedaço de mim levado ao mundo um
-              verdadeiro”
+            <h4 id="nome_testemunho">Gandalf, S</h4>
+            <p id="texto_testemunho" class="texto_testemunho">
+              “Investir em energia solar foi a melhor decisão que já tomei. Desde que instalamos nosso sistema fotovoltaico, nossas contas de energia despencaram, e agora estamos economizando significativamente a cada mês. Além disso, a equipe da Nunes Energia foi incrivelmente profissional e eficiente durante todo o processo. Recomendo a todos que buscam uma solução sustentável e econômica.”
             </p>
           </div>
           <div class="estrelas_testemunho">
@@ -164,6 +159,15 @@
             <img src="./images/star.svg" width="30" height="30" />
           </div>
         </div>
+
+        <div class="carousel_button_items">
+          <button class="button_item" onclick="changeTestimonials(0)"></button>
+          <button class="button_item" onclick="changeTestimonials(1)"></button>
+          <button class="button_item" onclick="changeTestimonials(2)"></button>
+          <button class="button_item" onclick="changeTestimonials(3)"></button>
+          <button class="button_item" onclick="changeTestimonials(4)"></button>
+        </div>
+
       </div>
     </div>
 
@@ -260,4 +264,5 @@
       <i class="fab fa-whatsapp"></i>
     </a>
   </body>
+  <script src="./script.js"></script>
 </html>
