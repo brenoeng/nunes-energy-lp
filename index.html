@@ -128,46 +128,74 @@
       <p>CREA 1919782982</p>
     </div>
 
-    <div class="fale-com-a-gente centraliza-limita">
-      <div>
-        <p class="com-traco">FALE COM A GENTE</p>
+    <div class="centraliza-limita">
+      <div class="fale-com-a-gente">
+        <div>
+          <div>
+            <p class="com-traco">FALE COM A GENTE</p>
+          </div>
+          <h2>
+            DESCUBRA COMO A ENERGIA SOLAR PODE REDUZIR SUA FATURA DE ENERGIA
+          </h2>
+          <a
+            href="https://wa.me/5586999363087?text=Ol%C3%A1%2C+gostaria+de+saber+mais+sobre+a+Energia+Solar"
+            target="_blank"
+            class="botao_cta"
+            >FAÇA SEU ORÇAMENTO</a
+          >
+        </div>
       </div>
-      <h2>DESCUBRA COMO A ENERGIA SOLAR PODE REDUZIR SUA FATURA DE ENERGIA</h2>
-      <a
-        href="https://wa.me/5586999363087?text=Ol%C3%A1%2C+gostaria+de+saber+mais+sobre+a+Energia+Solar"
-        target="_blank"
-        class="botao_cta"
-        >FAÇA SEU ORÇAMENTO</a
-      >
     </div>
 
     <div class="testemunhos">
-      <h2>O QUE DIZEM SOBRE NÓS</h2>
-      <div>
-        <div class="card_content">
-          <div>
-            <h4 id="nome_testemunho">Gandalf, S</h4>
-            <p id="texto_testemunho" class="texto_testemunho">
-              “Investir em energia solar foi a melhor decisão que já tomei. Desde que instalamos nosso sistema fotovoltaico, nossas contas de energia despencaram, e agora estamos economizando significativamente a cada mês. Além disso, a equipe da Nunes Energia foi incrivelmente profissional e eficiente durante todo o processo. Recomendo a todos que buscam uma solução sustentável e econômica.”
-            </p>
+      <div class="centraliza-limita">
+        <h2>O QUE DIZEM SOBRE NÓS</h2>
+        <div>
+          <div class="card_content">
+            <div>
+              <h4 id="nome_testemunho">Gandalf, S</h4>
+              <p id="texto_testemunho" class="texto_testemunho">
+                “Investir em energia solar foi a melhor decisão que já tomei.
+                Desde que instalamos nosso sistema fotovoltaico, nossas contas
+                de energia despencaram, e agora estamos economizando
+                significativamente a cada mês. Além disso, a equipe da Nunes
+                Energia foi incrivelmente profissional e eficiente durante todo
+                o processo. Recomendo a todos que buscam uma solução sustentável
+                e econômica.”
+              </p>
+            </div>
+            <div class="estrelas_testemunho">
+              <img src="./images/star.svg" width="30" height="30" />
+              <img src="./images/star.svg" width="30" height="30" />
+              <img src="./images/star.svg" width="30" height="30" />
+              <img src="./images/star.svg" width="30" height="30" />
+              <img src="./images/star.svg" width="30" height="30" />
+            </div>
           </div>
-          <div class="estrelas_testemunho">
-            <img src="./images/star.svg" width="30" height="30" />
-            <img src="./images/star.svg" width="30" height="30" />
-            <img src="./images/star.svg" width="30" height="30" />
-            <img src="./images/star.svg" width="30" height="30" />
-            <img src="./images/star.svg" width="30" height="30" />
+
+          <div class="carousel_button_items">
+            <button
+              class="button_item"
+              onclick="changeTestimonials(0)"
+            ></button>
+            <button
+              class="button_item"
+              onclick="changeTestimonials(1)"
+            ></button>
+            <button
+              class="button_item"
+              onclick="changeTestimonials(2)"
+            ></button>
+            <button
+              class="button_item"
+              onclick="changeTestimonials(3)"
+            ></button>
+            <button
+              class="button_item"
+              onclick="changeTestimonials(4)"
+            ></button>
           </div>
         </div>
-
-        <div class="carousel_button_items">
-          <button class="button_item" onclick="changeTestimonials(0)"></button>
-          <button class="button_item" onclick="changeTestimonials(1)"></button>
-          <button class="button_item" onclick="changeTestimonials(2)"></button>
-          <button class="button_item" onclick="changeTestimonials(3)"></button>
-          <button class="button_item" onclick="changeTestimonials(4)"></button>
-        </div>
-
       </div>
     </div>
 
@@ -221,15 +249,19 @@
         </div>
         <div class="form">
           <p>Solicite um orçamento</p>
-          <form action="#">
+          <form
+            action="https://script.google.com/macros/s/AKfycbylb5tE_pxfYfQSOgXcBAxySM_YcCo_cORCtQGz2z8umqoyPgYrkKTvTykMhdcV39ZVVg/exec"
+            method="post"
+            id="my-form"
+          >
             <label for="name">Nome</label>
-            <input id="name" type="text" required />
+            <input name="Nome" id="name" type="text" required />
             <label for="celular">Celular</label>
             <input
               id="celular"
+              name="Celular"
               type="tel"
-              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-              title="(00)00000-0000"
+              pattern="[0-9]{11}"
               required
             />
             <label for="celular"
@@ -237,14 +269,19 @@
             >
             <input
               type="number"
-              name=""
+              name="ValorFatura"
               id=""
               min="0"
               placeholder="em R$"
               required
             />
             <label for="cidade-uf">Em que cidade e estado você mora?</label>
-            <input type="text" id="cidade-uf" placeholder="Cidade-UF" />
+            <input
+              name="CidadeUF"
+              type="text"
+              id="cidade-uf"
+              placeholder="Cidade-UF"
+            />
             <input type="submit" name="" id="" value="ENVIAR" />
           </form>
         </div>

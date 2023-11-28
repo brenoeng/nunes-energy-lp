@@ -197,11 +197,12 @@ body {
 
 .fale-com-a-gente {
   display: flex;
-  flex-direction: column;
-  max-width: 612px;
-  position: relative;
-  left: 200px;
+  justify-content: end;
   font-weight: 700;
+}
+
+.fale-com-a-gente div {
+  max-width: 612px;
 }
 
 .fale-com-a-gente p {
@@ -416,6 +417,7 @@ form input[type="submit"] {
 
 .testemunhos {
   background-image: url(/images/yellow_background.png);
+  background-repeat: repeat;
   padding: 126px 80px 50px 126px;
   margin-top: 90px;
 }
@@ -428,8 +430,8 @@ form input[type="submit"] {
   box-sizing: border-box;
   border-radius: 1rem;
   background-color: var(--very_light_gray);
-  width: 46rem;
-  height: 27rem;
+  max-width: 46rem;
+  min-height: 35rem;
   position: relative;
   padding: 2rem 1.75rem 2rem 3rem;
   padding-bottom: 3.5rem;
@@ -451,6 +453,11 @@ form input[type="submit"] {
   border: 0px;
   width: 1.5rem;
   height: 1.5rem;
+  cursor: pointer;
+}
+
+.button_item:hover {
+  transform: scale(1.15);
 }
 
 .actived {
