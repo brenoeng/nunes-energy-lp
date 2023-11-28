@@ -64,19 +64,26 @@ window.addEventListener("load", function () {
   const form = document.getElementById("my-form");
   form.addEventListener("submit", function (e) {
     e.preventDefault();
-    let allInputs = document.querySelectorAll("input:not(:last-child)");
-    allInputs.forEach(function (field) {
-      field.value = "";
-    });
+
     const data = new FormData(form);
+    console.log([...data.entries()]);
+
     const action = e.target.action;
-    fetch(action, {
+    fetch(form.action, {
       method: "POST",
       body: data,
-    }).then(() => {
-      alert(
-        "Seus dados foram salvos! Um de nossos representantes comerciais entrará em contato em breve!"
-      );
-    });
+    })
+      .then((resp) => {
+        return resp.json();
+      })
+      .then(() => {
+        let allInputs = document.querySelectorAll("input:not(:last-child)");
+        allInputs.forEach(function (field) {
+          field.value = "";
+        });
+        alert(
+          "Seus dados foram salvos! Um de nossos representantes comerciais entrará em contato em breve!"
+        );
+      });
   });
 });
