@@ -66,9 +66,6 @@ window.addEventListener("load", function () {
     e.preventDefault();
 
     const data = new FormData(form);
-    console.log([...data.entries()]);
-
-    const action = e.target.action;
     fetch(form.action, {
       method: "POST",
       body: data,
