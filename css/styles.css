@@ -618,6 +618,11 @@ form input[type="submit"] {
 }
 
 @media screen and (max-width: 980px) {
+  .botao_cta {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
   .testemunhos {
     padding: 32px;
     margin-top: 90px;
@@ -633,12 +638,11 @@ form input[type="submit"] {
     padding: 1rem 0.75rem 1rem 2rem;
     padding-bottom: 3.5rem;
   }
-  
+
   img {
     max-width: 100%;
     height: auto;
   }
-  
 }
 
 @media screen and (max-width: 550px) {
