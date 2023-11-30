@@ -656,13 +656,18 @@ form input[type="submit"] {
   }
 
   .hero h2 {
-    font-size: 2rem;
-    line-height: 3rem;
+    font-size: 1.75rem;
+    line-height: 2rem;
     top: -150px;
   }
 
   .hero p {
     line-height: 2rem;
+    font-size: 1rem;
+    top: -150px;
+  }
+
+  .botao_cta {
     font-size: 1rem;
   }
 
@@ -678,5 +683,23 @@ form input[type="submit"] {
   #logo {
     max-height: 200px;
     width: auto;
+  }
+
+  .sobre_nos p {
+    font-size: 1.12rem;
+  }
+
+  .sobre_nos h2 {
+    font-size: 1.25rem;
+    margin-bottom: 32px;
+  }
+
+  .fale-com-a-gente h2 {
+    font-size: 1rem;
+    margin: 12px 8px;
+  }
+
+  .section-ben {
+    padding: 8px;
   }
 }
