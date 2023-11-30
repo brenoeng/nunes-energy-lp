@@ -602,7 +602,7 @@ form input[type="submit"] {
   }
 
   .benef {
-    min-width: 407px;
+    width: 407px;
   }
 
   .rodape {
@@ -647,6 +647,26 @@ form input[type="submit"] {
 
 @media screen and (max-width: 550px) {
   .passo {
+    width: 50%;
+    height: auto;
+  }
+  .passo p {
+    font-size: 1.3rem;
+  }
+
+  .passo i {
+    font-size: 60px;
+  }
+
+  .passo .titulo {
+    margin-top: 35px;
+  }
+
+  .miguel img {
+    transform: scale(0.8);
+  }
+
+  .container-passo {
     width: 100%;
   }
 
@@ -672,7 +692,13 @@ form input[type="submit"] {
   }
 
   .botao_cta {
-    font-size: 1rem;
+    font-size: 1.2rem;
+    width: 85%;
+    margin: auto;
+  }
+
+  .reduza_fatura h2 {
+    font-size: 1.3rem;
   }
 
   .card_content::before {
@@ -689,21 +715,75 @@ form input[type="submit"] {
     width: auto;
   }
 
+  .sobre_nos {
+    padding-top: 100px;
+    padding-bottom: 300px;
+  }
+
   .sobre_nos p {
     font-size: 1.12rem;
   }
 
   .sobre_nos h2 {
-    font-size: 1.25rem;
+    font-size: 1.3rem;
     margin-bottom: 32px;
   }
 
   .fale-com-a-gente h2 {
     font-size: 1rem;
     margin: 12px 8px;
+    width: 50%;
+  }
+
+  .fale-com-a-gente div {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .fale-com-a-gente p {
+    font-size: 1.3rem;
+  }
+
+  .testemunhos {
+    padding: 15px;
+  }
+  .testemunhos h2 {
+    font-size: 1.3rem;
+  }
+
+  .texto_testemunho {
+    font-size: 1.2rem;
   }
 
   .section-ben {
-    padding: 8px;
+    padding: 18px;
+    padding-bottom: 30px;
+  }
+
+  .section-ben h2 {
+    font-size: 1.3rem;
+    margin-top: 20px;
+  }
+
+  .benef {
+    width: 90%;
+  }
+
+  .benef p {
+    font-size: 1.3rem;
+  }
+
+  .benef i {
+    font-size: 60px;
+  }
+
+  .botao-entre-em-contato {
+    width: 80%;
+    font-size: 1.2rem;
+    margin: auto;
+  }
+
+  .copy-r {
+    font-size: 1rem;
   }
 }
