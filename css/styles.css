@@ -692,7 +692,7 @@ form input[type="submit"] {
   }
 
   .botao_cta {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     width: 85%;
     margin: auto;
   }
@@ -785,5 +785,42 @@ form input[type="submit"] {
 
   .copy-r {
     font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 355px) {
+  .botao_cta {
+    font-size: 0.9rem;
+  }
+
+  .passo {
+    padding: 35px;
+    width: 80%;
+  }
+
+  .benef {
+    height: 260px;
+    padding: 30px;
+  }
+
+  .benef p {
+    font-size: 1.1rem;
+  }
+
+  .form {
+    background: none;
+    border: none;
+    border-radius: none;
+    box-shadow: none;
+    padding: 0;
+    font-size: 1rem;
+  }
+
+  .botao-entre-em-contato {
+    font-size: 1.1rem;
+  }
+
+  .contato p {
+    font-size: 1.1rem;
   }
 }

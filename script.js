@@ -5,19 +5,19 @@ const testimonials = [
   },
   {
     name: "José, F",
-    text: "“Minha experiência com a Nunes Energia foi excepcional do início ao fim. Desde o primeiro contato até a instalação do sistema solar, a equipe mostrou um comprometimento notável com o cliente. A transição para a energia solar foi suave, e agora desfrutamos dos benefícios de uma casa mais sustentável. Estou muito satisfeito com o serviço prestado.”",
+    text: "“Minha experiência com a Nunes Energy foi excepcional do início ao fim. Desde o primeiro contato até a instalação do sistema solar, a equipe mostrou um comprometimento notável com o cliente. A transição para a energia solar foi suave, e agora desfrutamos dos benefícios de uma casa mais sustentável. Estou muito satisfeito com o serviço prestado.”",
   },
   {
     name: "Maria, E",
-    text: "“Cada vez que recebo um depoimento eu me sinto muito realizada, é uma parte de um sonho que está sendo realizado a cada dia! Nas formações de Reiki passo muito conhecimento, ensino técnicas mas também passo muito amor, dedicação e respeito. Cada um dos 600 alunos que tive esse ano é um pedaço de mim levado ao mundo um verdadeiro”",
+    text: "“Minha trajetória com a Nunes Energy foi marcada por um profissionalismo notável do princípio ao fim. Desde o primeiro contato até a conclusão da instalação do sistema solar, a equipe demonstrou um comprometimento excepcional com o cliente. A transição para a energia solar foi gerida de forma eficiente, e agora, colhemos os frutos de uma residência mais sustentável. Estou extremamente satisfeito com a qualidade e o profissionalismo demonstrados durante todo o processo. A Nunes Energy se destaca como uma escolha confiável e profissional para quem busca uma transição tranquila para a energia solar.”",
   },
   {
     name: "Lina, N",
-    text: "“Eu sempre quis fazer a transição para uma fonte de energia mais sustentável, mas estava preocupado com a complexidade do processo. A Nunes Energia tornou tudo simples e fácil. A equipe guiou-me através de cada etapa, desde a avaliação inicial até a ativação do sistema solar. Agora, estou orgulhoso de minha decisão e do impacto positivo que estou tendo no meio ambiente.”",
+    text: "“Eu sempre quis fazer a transição para uma fonte de energia mais sustentável, mas estava preocupado com a complexidade do processo. A Nunes Energy tornou tudo simples e fácil. A equipe guiou-me através de cada etapa, desde a avaliação inicial até a ativação do sistema solar. Agora, estou orgulhoso de minha decisão e do impacto positivo que estou tendo no meio ambiente.”",
   },
   {
     name: "Fabio, E",
-    text: "“A qualidade do sistema solar instalado pela Nunes Energia superou minhas expectativas. Meses após a instalação, meu sistema está operando de maneira eficiente, gerando mais energia do que o previsto. Estou impressionado não apenas com a economia de custos, mas também com o desempenho ambiental do sistema.”",
+    text: "“A qualidade do sistema solar instalado pela Nunes Energy superou minhas expectativas. Meses após a instalação, meu sistema está operando de maneira eficiente, gerando mais energia do que o previsto. Estou impressionado não apenas com a economia de custos, mas também com o desempenho ambiental do sistema.”",
   },
 ];
 
